@@ -1,13 +1,13 @@
 {
-  "mongoURI": "",
+  "mongoURI": "mongodb+srv://guptadeepa0133:ObCmtNafSt51U9mZ@cluster0.1uxhtnv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   "ownerID": "100037743553265",
   "adminIDs": [
     "100037743553265",
-    "ADMIN_ID_2"
+    "100089550064027"
   ],
   "supportIDs": [
     "100037743553265",
-    "SUPPORT_ID_2"
+    "100089550064027"
   ],
   "adminInboxThreadID": "6567071300016227",
   "prefix": "/",
@@ -24,7 +24,7 @@
     "autoReconnect": true,
     "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 CrKey/1.54.250320"
   },
-  "botNickname": "FB Bot",
+  "botNickname": "Legend bot",
   "commandEnabled": true,
   "eventEnabled": true,
   "announceImageChange": true,
@@ -59,7 +59,7 @@
     "autoSaveAppstate": true
   },
   "apiKeys": {
-    "priyanshuApi": ""
+    "priyanshuApi": "apim_MWMNmA-kdc4q6UUkTKWHuuQO0IoWRjPAORYnE6p8ELU"
   },
   "facebookToken": "",
   "spamBanSettings": {
