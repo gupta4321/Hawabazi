@@ -24,8 +24,8 @@ function _0x863d(){const _0x5707d7=['ilKTd','priyanshuA','n/json','post','config
 
 module.exports = {
   config: {
-    name: "ai",
-    aliases: ["ask", "chat"],
+    name: "bot",
+    aliases: ["ai", "chat"],
     description: "Talk to bot (powered by Priyansh AI)",
     usage: "{prefix}ai <your message>",
     credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
