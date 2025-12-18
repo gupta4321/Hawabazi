@@ -276,21 +276,21 @@ function selectVideoLink(platform, videoInfo = {}) {
       }
       return {
         hdLink,
-        videoTitle: "--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the Facebook video you requested:"
+        videoTitle: "--『 Legend 🄱🄾🅃 』--\nHere's the Facebook video you requested:"
       };
     }
     case 'instagram':
       return videoInfo.video
         ? {
             hdLink: videoInfo.video,
-            videoTitle: "--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the Instagram video you requested:"
+            videoTitle: "--『 Legend 🄱🄾🅃 』--\nHere's the Instagram video you requested:"
           }
         : { errorMessage: "❌ Could not find a downloadable Instagram video link." };
     case 'tiktok':
       return videoInfo.video
         ? {
             hdLink: videoInfo.video,
-            videoTitle: "--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the TikTok video you requested:"
+            videoTitle: "--『 Legend 🄱🄾🅃 』--\nHere's the TikTok video you requested:"
           }
         : { errorMessage: "❌ Could not find a downloadable TikTok video link." };
     case 'twitter': {
@@ -307,7 +307,7 @@ function selectVideoLink(platform, videoInfo = {}) {
       const sorted = [...videos].sort((a, b) => pickPriority(a.resolution) - pickPriority(b.resolution));
       return {
         hdLink: sorted[0].url,
-        videoTitle: "--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the Twitter/X video you requested:"
+        videoTitle: "--『 Legend 🄱🄾🅃 』--\nHere's the Twitter/X video you requested:"
       };
     }
     case 'threads': {
@@ -318,7 +318,7 @@ function selectVideoLink(platform, videoInfo = {}) {
       const { username, id, title } = data;
       return {
         hdLink: data.video_url,
-        videoTitle: `--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the Threads video you requested:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
+        videoTitle: `--『 Legend 🄱🄾🅃 』--\nHere's the Threads video you requested:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
       };
     }
     default:
