@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://guptadeepa0133:ObCmtNafSt51U9mZ@cluster0.1uxhtnv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "mongoURI": "",
   "ownerID": "100089550064027",
   "adminIDs": [
     "100089550064027",
